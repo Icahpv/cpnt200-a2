@@ -1,9 +1,9 @@
 # CPNT200-a2
 **Netlify CMS Admin Panel & Collections**
 
-Instructor: [Ashlyn Knox]()
-Links: [Github Repo]() | [Netlify Link]()
-CSS Framework: [Vuetify.js]()
+* Instructor: [Ashlyn Knox]()
+* Links: [Github Repo]() | [Netlify Link]()
+* CSS Framework: [Vuetify.js]()
 
 ## Assignment Review
 

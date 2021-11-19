@@ -24,6 +24,7 @@ collections:
     - name: "profile"
       label: "Profile"
       folder: content/profile
+      format: "frontmatter"
       widget: "object"
       summary: '{{fields.name}}: {{fields.birthdate}}'
       fields:

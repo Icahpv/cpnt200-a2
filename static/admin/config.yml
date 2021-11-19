@@ -22,6 +22,7 @@ collections:
       - { label: "Body", name: "body", widget: "markdown" }
       - name: "profile"
         label: "Profile"
+        folder: content/profile
         widget: "object"
         summary: '{{fields.name}}: {{fields.birthdate}}'
         fields:

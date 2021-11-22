@@ -15,6 +15,7 @@
   [x] Must have a label
   [] 1 Feature Widget
   > not sure I understood this one correctly.
+
     [] Has to be unique to the collection.
 [x] Collections (30%)
   [x] Collections are properly defined in your admin directory
@@ -22,6 +23,7 @@
 [x] Readme (20%)
   [x] Add links to your github repo and github pages site
   > I don't have a gh pages site, but I added my netlify site
+  
   [x] Code Review
     - Write briefly about anything you found interesting, difficult, or easy about coding this assignment
   [x] Attributions

@@ -27,6 +27,7 @@
   [x] Attributions
 
 - This assignment is awesome, I didn't think a framework could do this and create a blog from the scratch. I had difficulty figuring out how to add collections, I believe the collections I added are very simple and there's more to it. I have tried adding and taking out in my collections and it all just seem to break some code, I hope I could see more of this in action. 
+- What I Discovered! If I publish entries, netlify will automatically create .md files to my contents, which is crazy!
 
 ### Attributions
 

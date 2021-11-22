@@ -32,4 +32,4 @@ collections:
       preview: true
     fields:
       - { label: "Title", name: "title", widget: "string", required: true }
-      - { label: "Image", name: "image", widget: allow_multiple: true, "image", multiple: true, required: true }
+      - { label: "Image", name: "image", widget: "image", allow_multiple: true,  multiple: true, required: true }

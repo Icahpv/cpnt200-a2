@@ -32,4 +32,5 @@ collections:
       preview: true
     fields:
       - { label: "Title", name: "title", widget: "string", required: true }
-      - { label: "Image", name: "image", widget: "image", allow_multiple: true,  multiple: true, required: true }
+      - { label: "Image", name: "image", widget: "image", multiple: true, required: true }
+      - { - label: "Start time", name: "start", widget: "datetime", default: "", date_format: "DD.MM.YYYY", time_format: "HH:mm", format: "LLL" picker_utc: false}

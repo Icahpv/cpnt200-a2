@@ -28,6 +28,7 @@ collections:
     format: "frontmatter"
     create: true
     slug: "{{slug}}"
+    editor:
       preview: false
     fields:
       - { label: "Title", name: "title", widget: "string", required: true }

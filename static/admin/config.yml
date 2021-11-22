@@ -22,28 +22,30 @@ collections:
       - { label: "Body", name: "body", widget: "markdown" }
       - { label: "Tags", name: "tags", widget: "list", default: ["HashTag"] }
   # Gallery
-  - name: "favorites"
-    label: "Favorites"
+  - name: "gallery"
+    label: "Gallery"
     folder: "content/gallery"
     format: "frontmatter"
     create: true
     slug: "{{slug}}"
-    editor:
       preview: false
     fields:
       - { label: "Title", name: "title", widget: "string", required: true }
       - { label: "Start time", name: "start", widget: "datetime", default: "", date_format: "DD.MM.YYYY", time_format: "HH:mm", format: "LLL", picker_utc: false}
       - { label: "Tags", name: "tags", widget: "list", default: ["HashTag"] }
       - { label: "Image", name: "image", widget: "image", multiple: true, required: true }
-  # Profile
-  - name: "profile"
-    label: "Profile"
-    folder: "content/profile"
+  # Favourites
+  - name: "favourites"
+    label: "Favourites"
+    folder: "content/favourites"
     format: "frontmatter"
     create: true
     slug: "{{slug}}"
-    editor:
+    add_to_top: true
       preview: false
     fields:
+      - { label: "Favourites", name: "tags", widget: "list", default: ["treats, toys..."] }
+      - { label: 'Cover Image', name: 'image', widget: 'image', required: false, tagname: '' }
+      - { label: "Description", name: "description", widget: "string" }
       - { label: 'Color', name: 'color', widget: 'color', enableAlpha: true, allowInput: true }
-      - { label: "Favourites", name: "tags", widget: "list", default: ["treats, toys..."], max: 8, min: 2 }
+     

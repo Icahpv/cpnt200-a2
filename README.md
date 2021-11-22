@@ -15,7 +15,7 @@
   - [x] Must have a label
   - [] 1 Feature Widget
     - [] Has to be unique to the collection.
-  > not sure if I understood this part correctly.
+    > not sure if I understood this part correctly.
 - [x] Collections (30%)
   - [x] Collections are properly defined in your admin directory
   - [x] Define two new collections

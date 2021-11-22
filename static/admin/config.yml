@@ -42,10 +42,9 @@ collections:
     format: "frontmatter"
     create: true
     slug: "{{slug}}"
-    add_to_top: true
       preview: false
     fields:
-      - { label: "Favourites", name: "tags", widget: "list", default: ["treats, toys..."] }
+      - { label: "Favourites", name: "tags", widget: "list", default: ["treats, toys..."], add_to_top: true }
       - { label: 'Cover Image', name: 'image', widget: 'image', required: false, tagname: '' }
       - { label: "Description", name: "description", widget: "string" }
       - { label: 'Color', name: 'color', widget: 'color', enableAlpha: true, allowInput: true }

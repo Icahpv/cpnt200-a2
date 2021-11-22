@@ -1,12 +1,41 @@
 # CPNT200-a2
 **Netlify CMS Admin Panel & Collections**
 
-* Instructor: [Ashlyn Knox]()
-* Links: [Github Repo]() | [Netlify Link]()
-* CSS Framework: [Vuetify.js]()
+* Instructor: [Ashlyn Knox](https://github.com/lilyx13)
+* Links: [Github Repo](https://github.com/Icahpv/cpnt200-a2) | [Netlify Site](https://netlify-homework.netlify.app/) + admin
+* CSS Framework: [Vuetify.js](https://vuetifyjs.com/en/)
 
 ## Assignment Review
 
+[x] Configuration (20%)
+  [x] Properly set up your netlify admin inside a nuxt project
+  [x] Deploy to Netlify
+[x] Widget (30%)
+  [x] Must have a title
+  [x] Must have a label
+  [] 1 Feature Widget
+  > not sure I understood this one correctly.
+    [] Has to be unique to the collection.
+[x] Collections (30%)
+  [x] Collections are properly defined in your admin directory
+  [x] Define two new collections
+[x] Readme (20%)
+  [x] Add links to your github repo and github pages site
+  > I don't have a gh pages site, but I added my netlify site
+  [x] Code Review
+    - Write briefly about anything you found interesting, difficult, or easy about coding this assignment
+  [x] Attributions
+
+- This assignment is awesome, I didn't think a framework could do this and create a blog from the scratch. I had difficulty figuring out how to add collections, I believe the collections I added are very simple and there's more to it. I have tried adding and taking out in my collections and it all just seem to break some code, I hope I could see more of this in action. 
+
+### Attributions
+
+- [Netlify CMS Common Widgets](https://www.netlifycms.org/docs/widgets/#file)
+- [Ashlyn Knox](https://github.com/lilyx13): Code examples, specifically her [dog-blog](https://github.com/lilyx13/dog-blog) repo.
+
+
+#### License
+[MIT License](LICENSE) :scroll:
 
 ---
 

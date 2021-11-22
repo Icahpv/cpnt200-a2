@@ -20,18 +20,31 @@ collections:
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Description", name: "description", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
-      - { label: "Tags", name: "tags", widget: "list", default: ["news"] }
+      - { label: "Tags", name: "tags", widget: "list", default: ["HashTag"] }
   # Gallery
-  - name: "gallery"
-    label: "Gallery"
+  - name: "favorites"
+    label: "Favorites"
     folder: "content/gallery"
     format: "frontmatter"
     create: true
     slug: "{{slug}}"
     editor:
-      preview: true
+      preview: false
     fields:
       - { label: "Title", name: "title", widget: "string", required: true }
-      - { label: "Start time", name: "start", widget: "datetime", default: "", date_format: "DD.MM.YYYY", time_format: "HH:mm", format: "LLL", picker_utc: false}
-      - {label: "Description", name: "description", widget: "text"}
-      - { label: "Image", name: "image", widget: "image", multiple: true, required: true }
+      - { label: "Date", name: "start", widget: "datetime", default: "", date_format: "DD.MM.YYYY", time_format: "HH:mm", format: "LLL", picker_utc: false}
+      - { label: "Tags", name: "tags", widget: "list", default: ["HashTag"] }
+      - { label: "Upload images here", name: "image", widget: "image", multiple: true, required: true }
+  # Profile
+  - name: "profile"
+    label: "Profile"
+    folder: "content/profile"
+    format: "frontmatter"
+    create: true
+    slug: "{{slug}}"
+    editor:
+      preview: false
+    fields:
+      - { label: 'Color', name: 'color', widget: 'color', enableAlpha: true, allowInput: true }
+      - { label: "Favourites", name: "tags", widget: "list", default: ["treats, toys..."], max: 8, min: 2 }
+      - 

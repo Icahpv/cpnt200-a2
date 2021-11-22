@@ -32,9 +32,9 @@ collections:
       preview: false
     fields:
       - { label: "Title", name: "title", widget: "string", required: true }
-      - { label: "Date", name: "start", widget: "datetime", default: "", date_format: "DD.MM.YYYY", time_format: "HH:mm", format: "LLL", picker_utc: false}
+      - { label: "Start time", name: "start", widget: "datetime", default: "", date_format: "DD.MM.YYYY", time_format: "HH:mm", format: "LLL", picker_utc: false}
       - { label: "Tags", name: "tags", widget: "list", default: ["HashTag"] }
-      - { label: "Upload images here", name: "image", widget: "image", multiple: true, required: true }
+      - { label: "Image", name: "image", widget: "image", multiple: true, required: true }
   # Profile
   - name: "profile"
     label: "Profile"
@@ -47,4 +47,3 @@ collections:
     fields:
       - { label: 'Color', name: 'color', widget: 'color', enableAlpha: true, allowInput: true }
       - { label: "Favourites", name: "tags", widget: "list", default: ["treats, toys..."], max: 8, min: 2 }
-      - 

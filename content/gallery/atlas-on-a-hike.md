@@ -1,6 +1,6 @@
 ---
 title: Atlas on a hike
-start: November 21, 2021 8:27 PM
+start: November 22, 2021 9:37 PM
 tags:
   - HikeWithAtlas
 image: /images/atlas-3.jpg

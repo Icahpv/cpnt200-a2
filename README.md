@@ -1,6 +1,6 @@
 # CPNT200-a2 + CPNT200-a3
 - **Netlify CMS Admin Panel & Collections**
-- ** JAMstack Setup**
+- **JAMstack Setup**
 
 * Instructor: [Ashlyn Knox](https://github.com/lilyx13)
 * Links: [Github Repo](https://github.com/Icahpv/cpnt200-a2) | [Netlify Site](https://netlify-homework.netlify.app/) + admin
@@ -32,7 +32,7 @@
 
 ## Assingment 3 Review
 
-- [x]Configuration (20%)
+- [x] Configuration (20%)
   - [x] Netlify CMS + Nuxt Deployed to Netlify
 - [x] CMS Content (30%)
   - [x] Write 4 entries using two different collections. Can be sample content

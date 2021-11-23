@@ -1,11 +1,12 @@
-# CPNT200-a2
-**Netlify CMS Admin Panel & Collections**
+# CPNT200-a2 + CPNT200-a3
+- **Netlify CMS Admin Panel & Collections**
+- ** JAMstack Setup**
 
 * Instructor: [Ashlyn Knox](https://github.com/lilyx13)
 * Links: [Github Repo](https://github.com/Icahpv/cpnt200-a2) | [Netlify Site](https://netlify-homework.netlify.app/) + admin
 * CSS Framework: [Vuetify.js](https://vuetifyjs.com/en/)
 
-## Assignment Review
+## Assignment 2 Review
 
 - [x] Configuration (20%)
   - [x] Properly set up your netlify admin inside a nuxt project
@@ -28,6 +29,24 @@
 
 - This assignment is awesome, I didn't think a framework could do this and create a blog from the scratch. I had difficulty figuring out how to add collections, I believe the collections I added are very simple and there's more to it. I have tried adding and taking out in my collections and it all just seem to break some code, I hope I could see more of this in action. 
 - What I Discovered! If I publish entries, netlify will automatically create .md files to my contents, which is crazy!
+
+## Assingment 3 Review
+
+- [x]Configuration (20%)
+  - [x] Netlify CMS + Nuxt Deployed to Netlify
+- [x] CMS Content (30%)
+  - [x] Write 4 entries using two different collections. Can be sample content
+  - [x] Collections should have different fields.
+- [x] Nuxt-Content to Render your Collection Posts
+  - [x] _slug.vue file properly set up
+  - [x] Posts created in netlify cms render onto your website
+- [x] Code Review & Readme
+
+- I had a bit of difficulty getting my original repo to work so I used my 2nd assignment, I also didn't want to waste the content I added already, I hope it's okay.
+- Vuetify.js, I couldn't get this CSS to work.
+- Nuxt/Image - could not render images from my content to the slug files. I'm not exactly sure how to make that work, I tried v-binding but it's not working.
+- This assignment was a bit difficult for me, because there's a lot of back and forth to folders and if you are bad at naming convention, it's very easy to confuse things. I'm happy I made it work.
+
 
 ### Attributions
 

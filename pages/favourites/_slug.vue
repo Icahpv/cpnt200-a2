@@ -1,7 +1,11 @@
 <template>
   <v-main>
     <v-container>
-      <h1>{{ fave.tags }}</h1>
+      <h1>{{ fave.title }}</h1>
+      <ul>
+        <li>Publish Date: {{ fave.start }}</li>
+        <li>Tags: {{ fave.tags }}</li>
+      </ul>
       <p>{{ fave.description }}</p>
     </v-container>
   </v-main> 
